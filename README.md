@@ -1,2 +1,2 @@
 ## Update all the dependecies
-<p>npm-upgrade</p>
+<p>npm upgrade</p>
