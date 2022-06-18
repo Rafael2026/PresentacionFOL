@@ -16,11 +16,10 @@
     "jxLoader": "^0.1.1",
     "npm": "^8.12.1",
     "phaser": "^3.55.2",
-    "react-scripts": "^2.1.3",
+    "react-scripts": "^5.0.1",
     "sweetalert2": "^11.4.17",
     "typescript": "^4.7.3"
   },
-  
   "author": "",
   "license": "ISC",
   "devDependencies": {
