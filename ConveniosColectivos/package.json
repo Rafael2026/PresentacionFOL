@@ -14,8 +14,6 @@
     "fs": "^0.0.1-security",
     "g": "^2.0.1",
     "jxLoader": "^0.1.1",
-    "laravel": "^8.*",
-    "mysql": "^8.*",
     "npm": "^8.12.1",
     "phaser": "^3.55.2",
     "react-scripts": "^2.1.3",
