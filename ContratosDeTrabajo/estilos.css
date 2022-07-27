@@ -1,16 +1,23 @@
-body, html {height: 100%;}
-body {background-color: #0274d857;}
-h1, h3, nav {font-family: 'Poppins', sans-serif;}
-p, li, .text-responsive {font-size: calc(1% + 0.8vw + 0.8vh);}
-.lh-big {line-height: 1.6;}
-.w-85 {width: 85%;}
-.text-black {color: black;}
-.text-indent {text-indent: 2rem;}
-.navbar {border-bottom: 0.4em solid #0275d8;}
+body, html { height: 100%; }
+
+body { background-color: #0274d857; }
+
+h1, h3, nav { font-family: 'Poppins', sans-serif; }
+
+p, li, .text-responsive { font-size: calc(1% + 0.8vw + 0.8vh); }
+
+.lh-big { line-height: 1.6; }
+
+.w-85 { width: 85%; }
+
+.text-black { color: black; }
+
+.text-indent { text-indent: 2rem; }
+
+.navbar { border-bottom: 0.4em solid #0275d8; }
 
 .navbar-brand {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin: 0px 1rem;
 }
 
 .nav-item:hover {
@@ -20,7 +27,7 @@ p, li, .text-responsive {font-size: calc(1% + 0.8vw + 0.8vh);}
 
 /* Header */
 .hero-image {
-  background-image: url("imagenes/wishYouWereHere.jpeg"); /* Use "linear-gradient" to add a darken background effect to the image */
+  background-image: url("img/wishYouWereHere.webp"); /* Use "linear-gradient" to add a darken background effect to the image */
   height: 100%;
   background-position: center; /* Position and center the image to scale nicely on all screens */
   background-repeat: no-repeat;

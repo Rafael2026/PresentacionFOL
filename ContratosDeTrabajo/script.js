@@ -3,11 +3,12 @@ $(function() {
   'use strict';
   
   function toggle(e) {
-    if (e) e.preventDefault();
     
-    var $this = $(this),
-        $navbar = $this.parents('.navbar'),
-        $item = $this.parent();
+    if (e) { e.preventDefault(); }
+    
+    var $this = $(this);
+    var $navbar = $this.parents('.navbar');
+    var $item = $this.parent();
     
     $('.nav-item.active', $navbar).removeClass('active');
     $item.addClass('active');
@@ -19,17 +20,19 @@ $(function() {
   }
   
   function leave(e) {
-    var $this = $(this),
-        $navbar = $this.siblings('.main-nav'),
-        $subnav = $('.navbar-nav.active', $this);
+
+    var $this = $(this);
+    var $navbar = $this.siblings('.main-nav');
+    var $subnav = $('.navbar-nav.active', $this);
     
     $('[data-target="#' + $subnav.attr('id') + '"]', $navbar).removeClass('hover');
     $subnav.removeClass('active');
   };
   
   function enter(e) {
-    var $this = $(this),
-        $navbar = $this.parents('.navbar');
+    
+    var $this = $(this);
+    var $navbar = $this.parents('.navbar');
     
     $('.nav-item.hover', $navbar).removeClass('hover');
     $this.addClass('hover');
@@ -43,4 +46,5 @@ $(function() {
   $('.main-nav .nav-link, .sub-nav .nav-link').click(toggle);
   $('.main-nav .nav-item').mouseenter(enter);
   $('.sub-nav').mouseleave(leave);
+
 });
