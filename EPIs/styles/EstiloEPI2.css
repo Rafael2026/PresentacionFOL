@@ -1,5 +1,5 @@
 body {
-  background-image: url("../imagenes/cascoSeguridad.png");
+  background-image: url("../img/cascoSeguridad.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100vw;
@@ -81,10 +81,7 @@ hr {
 }
 
 /* Estilo para diapositiva de 3 columnas */
-.listaColumna {
-  margin-top: 20px;
-}
-
+.listaColumna { margin-top: 20px; }
 
 /* Estilo para las diapositivas que estan divididas en dos columnas */
 .twoColumns {
