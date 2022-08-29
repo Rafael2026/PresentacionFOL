@@ -14,11 +14,9 @@ p, li, .text-responsive { font-size: calc(1% + 0.8vw + 0.8vh); }
 
 .text-indent { text-indent: 2rem; }
 
-.navbar { border-bottom: 0.4em solid #0275d8; }
+.navbar { border-bottom: 0.4em solid #0275d8; } /* width| style | color */
 
-.navbar-brand {
-  margin: 0px 1rem;
-}
+.navbar-brand { margin: 0px 1rem; } /* Top and bottom | Right and left */
 
 .nav-item:hover {
   background-color: #0275d8;

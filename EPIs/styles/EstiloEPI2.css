@@ -93,9 +93,7 @@ hr {
   line-height: 3vw;
 }
 
-.twoColumns ul {
-  margin: 5vw auto;
-}
+.twoColumns ul { margin: 5vw auto; } /* Top and bottom | Right and left */
 
 .twoColumns img {
   padding-top: 4vw;
@@ -104,6 +102,6 @@ hr {
 
 /* Para centrar las imagenes en diapositivas de tres columnas */
 .centroImg {
-  margin: 20px auto;
+  margin: 20px auto; /* Top and bottom | Right and left */
   display: block;
 }
