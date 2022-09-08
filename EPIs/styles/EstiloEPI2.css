@@ -10,6 +10,7 @@ h1, h2 { /* titulo */
   margin: 0;
   text-align: center;
 }
+
 h3 {
   text-align: center;
   margin-top: 6vw;
@@ -23,14 +24,14 @@ hr {
   background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
-#wrapper1 { /* titulo */
+#wrapper1 {  /* titulo */
   position: relative;
   font-size: 150%;
   border: 4px dashed black ;
   margin: auto;
   margin: 10px 20px 10px;
   padding: 20px;
-  }
+}
 
 #wrapper2 { /* texto */
   position: relative;
@@ -80,8 +81,7 @@ hr {
   text-transform: uppercase;
 }
 
-/* Estilo para diapositiva de 3 columnas */
-.listaColumna { margin-top: 20px; }
+.listaColumna { margin-top: 20px; } /* Estilo para diapositiva de 3 columnas */
 
 /* Estilo para las diapositivas que estan divididas en dos columnas */
 .twoColumns {

@@ -33,7 +33,6 @@ p, li, .text-responsive { font-size: calc(1% + 0.8vw + 0.8vh); }
   position: relative;
 }
 
-
 .hero-text {
   text-align: center; /* Place text in the middle of the image */
   position: absolute;
