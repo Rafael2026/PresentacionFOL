@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "-": ">=0.0.1",
-    "@angular/core": ">=14.2.2",
+    "@angular/core": ">=14.2.3",
     "animejs": ">=3.2.1",
     "bootstrap": ">=5.2.1",
     "bootstrap-icons": ">=1.9.1",
