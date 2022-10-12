@@ -10,21 +10,21 @@
     "bootstrap": ">=5.2.2",
     "bootstrap-icons": ">=1.9.1",
     "build": ">=0.1.4",
-    "express": ">=4.18.1",
+    "express": ">=4.18.2",
     "fs": ">=0.0.1-security",
     "g": ">=2.0.1",
     "jxLoader": ">=0.1.1",
     "npm": ">=8.19.2",
     "phaser": ">=3.55.2",
     "react-scripts": ">=5.0.1",
-    "sweetalert2": ">=11.4.38",
+    "sweetalert2": ">=11.5.1",
     "typescript": ">=4.8.4"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@angular-devkit/build-angular": ">=14.2.5",
-    "minimist": ">=1.2.6"
+    "minimist": ">=1.2.7"
   },
   "resolutions": {
     "hoek": "4.2.1"
