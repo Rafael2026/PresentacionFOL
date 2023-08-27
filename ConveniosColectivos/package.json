@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "-": ">=0.0.1",
-    "@angular/core": ">=16.2.0",
+    "@angular/core": ">=16.2.2",
     "@popperjs/core": ">=2.11.8",
     "animejs": ">=3.2.1",
     "bootstrap": ">=5.3.1",
@@ -20,8 +20,8 @@
     "npm": ">=9.8.1",
     "phaser": ">=3.60.0",
     "react-scripts": ">=5.0.1",
-    "sweetalert2": ">=11.7.22",
-    "typescript": ">=5.1.6"
+    "sweetalert2": ">=11.7.27",
+    "typescript": ">=5.2.2"
   },
   "author": "",
   "license": "ISC",
@@ -30,6 +30,6 @@
     "minimist": ">=1.2.8"
   },
   "resolutions": {
-    "hoek": ">=4.2.1"
+    "hoek": ">=6.1.3"
   }
 }
