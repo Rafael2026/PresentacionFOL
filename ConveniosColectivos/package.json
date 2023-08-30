@@ -19,7 +19,7 @@
     "jxLoader": ">=0.1.1",
     "npm": ">=9.8.1",
     "phaser": ">=3.60.0",
-    "react-scripts": ">=5.0.1",
+    "react-scripts": ">=3.0.0",
     "sweetalert2": ">=11.7.27",
     "typescript": ">=5.2.2"
   },
